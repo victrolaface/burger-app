@@ -1,0 +1,26 @@
+{
+  "name": "burger_web_app",
+  "version": "1.0.0",
+  "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
+  "main": "server.js",
+  "author": "",
+  "scripts": {
+    "init": "mysql -u root -proot < db/migrate/init.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "graceful-fs": "^4.1.11",
+    "method-override": "^2.3.5",
+    "minimatch": "^3.0.4",
+    "mysql": "^2.12.0",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0",
+    "sequelize-cli": "^2.7.0"
+  }
+}

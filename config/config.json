@@ -1,0 +1,14 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "burgers_db_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "database": "burgers_db",
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
